@@ -5,7 +5,7 @@ var keystone = require('keystone');
 var cloudinary = require('cloudinary');
 
 // Collection of templates to interpolate
-var linkTemplate = _.template('<a href="<%= url %>"><%= text %></a>');
+var linkTemplate = _.template('<a class="btn btn-primary" href="<%= url %>"><%= text %></a>');
 var scriptTemplate = _.template('<script src="<%= src %>"></script>');
 var cssLinkTemplate = _.template('<link href="<%= href %>" rel="stylesheet">');
 
